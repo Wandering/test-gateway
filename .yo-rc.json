@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "testGateway",
+    "packageName": "io.bwl.yyp.gateway",
+    "packageFolder": "io/bwl/yyp/gateway",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-tw",
+    "languages": [
+      "zh-tw"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.1",
+    "jwtSecretKey": "Mjk0NjMyMzM3Njg1NmIyZjc2NmUyZWNmZjUzYjk4ODhjNGIxNGQ5OWIxNDE2NmE3M2Q4NWQ2ZjAxMGEyYWFlMzc0ZTVkZWI3NDE2MDEyN2RlMTgxY2ZlYjA1ZDI2NTY0OTE2MWVmODc4NjBhOGIwMmJiOTM3ODcwNGVhZTFlYWI=",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "Wandering",
+  "repository-name": "test-gateway"
+}
